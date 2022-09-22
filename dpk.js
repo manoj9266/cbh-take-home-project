@@ -40,3 +40,4 @@ exports.deterministicPartitionKey = (event) => {
 };
 
 exports.encrypt = encrypt;
+
