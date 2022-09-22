@@ -16,3 +16,19 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
 ## Your Breakdown Here
+Notes:
+Core entity:
+1. Facilities,
+2. Agents
+3. Shifts
+
+
+Ticket-1
+create a facility_agent table which contains column facility_id,agent_id,facility_agent_id(the custom id which facility is assigning to a agent)
+
+Ticket-2
+incorporage the facility_agent_id in the agent metadata in the list of shifts redturnd by `getShiftsByFacility`
+
+
+Ticket-3
+Incorporate the facility_agent_id in the `generateReport` 
