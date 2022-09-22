@@ -23,12 +23,12 @@ Core entity:
 3. Shifts
 
 
-Ticket-1
-create a facility_agent table which contains column facility_id,agent_id,facility_agent_id(the custom id which facility is assigning to a agent)
+Ticket-1 (Create a table to enable facility to assign a custom id to an Agent)
+create a facility_agent table which contains column facility_id,agent_id,custom_agent_id
+where custom_agent_id =>(the custom id which facility is assigning to a agent)
 
-Ticket-2
-incorporage the facility_agent_id in the agent metadata in the list of shifts redturnd by `getShiftsByFacility`
+Ticket-2 (Include the custom Agent Id in meta data in the `getShiftsByFacility`)
+incorporage the custom_agent_id in the agent metadata in the list of shifts redturnd by `getShiftsByFacility`
 
-
-Ticket-3
-Incorporate the facility_agent_id in the `generateReport` 
+Ticket-3 (Include the custom Agent Id in meta data in the `generateReport`)
+Incorporate the custom_agent_id in the `generateReport` 
